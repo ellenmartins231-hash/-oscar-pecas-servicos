@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Entre em contato com a Oscar Peças Serviços para consultar autopeças Chevrolet."
+    />
+    <title>Contato | Oscar Peças Serviços</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <script src="./js/busca.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="./img/logo-oscar.png" alt="Logotipo da Oscar Peças Serviços" />
+        <h1>Oscar Peças Serviços</h1>
+      </div>
+
+      <nav aria-label="Navegação principal">
+        <a href="./index.html">Início</a>
+        <a href="./veiculos.html">Veículos</a>
+        <a href="./pecas.html">Peças</a>
+        <a href="./contato.html" aria-current="page">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner-principal">
+        <p>FALE COM A OSCAR PEÇAS SERVIÇOS</p>
+        <h2>Vamos encontrar a peça certa para seu Chevrolet?</h2>
+        <p>
+          Informe os dados do veículo e da peça que procura para facilitar
+          a consulta de aplicação e disponibilidade.
+        </p>
+      </section>
+
+      <section id="formulario-contato">
+        <h2>Solicitar orçamento</h2>
+        <p>
+          Preencha os campos abaixo com as informações que você souber.
+          Quanto mais detalhes, mais fácil será identificar a peça desejada.
+        </p>
+
+        <form action="#" method="get">
+          <div>
+            <label for="nome">Nome completo *</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              autocomplete="name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="telefone">Telefone ou WhatsApp *</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="(00) 00000-0000"
+              autocomplete="tel"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="veiculo">Modelo do veículo *</label>
+            <select id="veiculo" name="veiculo" required>
+              <option value="">Selecione um modelo</option>
+              <option value="Onix">Chevrolet Onix</option>
+              <option value="Onix Plus">Chevrolet Onix Plus</option>
+              <option value="Celta">Chevrolet Celta</option>
+              <option value="Corsa">Chevrolet Corsa</option>
+              <option value="Classic">Chevrolet Classic</option>
+              <option value="Prisma">Chevrolet Prisma</option>
+              <option value="Agile">Chevrolet Agile</option>
+              <option value="Kadett">Chevrolet Kadett</option>
+              <option value="Chevette">Chevrolet Chevette</option>
+              <option value="Spark">Chevrolet Spark</option>
+              <option value="Sonic">Chevrolet Sonic</option>
+              <option value="Astra">Chevrolet Astra</option>
+              <option value="Vectra">Chevrolet Vectra</option>
+              <option value="Vectra GT">Chevrolet Vectra GT</option>
+              <option value="Cruze">Chevrolet Cruze</option>
+              <option value="Cobalt">Chevrolet Cobalt</option>
+              <option value="Monza">Chevrolet Monza</option>
+              <option value="Omega">Chevrolet Omega</option>
+              <option value="Omega Suprema">Chevrolet Omega Suprema</option>
+              <option value="Malibu">Chevrolet Malibu</option>
+              <option value="Opala">Chevrolet Opala</option>
+              <option value="Caravan">Chevrolet Caravan</option>
+              <option value="Tracker">Chevrolet Tracker</option>
+              <option value="Trailblazer">Chevrolet Trailblazer</option>
+              <option value="Blazer">Chevrolet Blazer</option>
+              <option value="Equinox">Chevrolet Equinox</option>
+              <option value="Captiva">Chevrolet Captiva</option>
+              <option value="Spin">Chevrolet Spin</option>
+              <option value="Meriva">Chevrolet Meriva</option>
+              <option value="Zafira">Chevrolet Zafira</option>
+              <option value="Montana">Chevrolet Montana</option>
+              <option value="S10">Chevrolet S10</option>
+              <option value="Silverado">Chevrolet Silverado</option>
+              <option value="C10">Chevrolet C10</option>
+              <option value="C14">Chevrolet C14</option>
+              <option value="C20">Chevrolet C20</option>
+              <option value="A10">Chevrolet A10</option>
+              <option value="A20">Chevrolet A20</option>
+              <option value="D10">Chevrolet D10</option>
+              <option value="D20">Chevrolet D20</option>
+              <option value="Bonanza">Chevrolet Bonanza</option>
+              <option value="Veraneio">Chevrolet Veraneio</option>
+              <option value="Camaro">Chevrolet Camaro</option>
+              <option value="Corvette">Chevrolet Corvette</option>
+              <option value="Calibra">Chevrolet Calibra</option>
+              <option value="Outro">Outro modelo Chevrolet</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="ano">Ano do veículo *</label>
+            <input
+              type="number"
+              id="ano"
+              name="ano"
+              min="1900"
+              max="2100"
+              placeholder="Ex.: 2020"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="versao">Versão ou motorização</label>
+            <input
+              type="text"
+              id="versao"
+              name="versao"
+              placeholder="Ex.: 1.0, 1.4, LTZ"
+            />
+          </div>
+
+          <div>
+            <label for="peca">Peça desejada *</label>
+            <input
+              type="text"
+              id="peca"
+              name="peca"
+              placeholder="Ex.: pastilha de freio"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="categoria">Categoria da peça</label>
+            <select id="categoria" name="categoria">
+              <option value="">Selecione uma categoria</option>
+              <option value="motor">Motor</option>
+              <option value="alimentacao">Alimentação e injeção</option>
+              <option value="ignicao">Ignição</option>
+              <option value="lubrificacao">Lubrificação</option>
+              <option value="arrefecimento">Arrefecimento</option>
+              <option value="freios">Freios</option>
+              <option value="suspensao">Suspensão</option>
+              <option value="direcao">Direção</option>
+              <option value="transmissao">Transmissão e embreagem</option>
+              <option value="filtros">Filtros e revisão</option>
+              <option value="eletrica">Sistema elétrico</option>
+              <option value="escape">Escapamento</option>
+              <option value="ar-condicionado">Ar-condicionado</option>
+              <option value="iluminacao">Iluminação</option>
+              <option value="lataria">Lataria e carroceria</option>
+              <option value="interior">Interior e acabamento</option>
+              <option value="rodas">Rodas e cubos</option>
+              <option value="limpadores">Limpadores e esguicho</option>
+              <option value="vidros">Vidros, portas e fechaduras</option>
+              <option value="coxins">Coxins e suportes</option>
+              <option value="fixacao">Fixação e acessórios</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="mensagem">Informações adicionais</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Informe detalhes que possam ajudar a identificar a peça."
+            ></textarea>
+          </div>
+
+          <button type="submit">Enviar solicitação</button>
+        </form>
+
+        <p>
+          <strong>Importante:</strong> este formulário é uma demonstração
+          acadêmica. No momento, ele não envia os dados para a empresa.
+        </p>
+      </section>
+
+      <section id="orientacao-contato">
+        <h2>Antes de consultar</h2>
+        <p>
+          Sempre que possível, tenha em mãos o ano, a versão e a motorização
+          do veículo. Essas informações ajudam a verificar a aplicação correta
+          da peça.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Oscar Peças Serviços — Autopeças Chevrolet.</p>
+      <p>Aplicação e disponibilidade devem ser confirmadas com a empresa.</p>
+    </footer>
+  </body>
+</html>

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conheça a Oscar Peças Serviços e navegue pelo catálogo de autopeças Chevrolet."
+    />
     <title>Oscar Peças Serviços | Autopeças Chevrolet</title>
 
     <link rel="stylesheet" href="./css/reset.css" />
@@ -12,12 +16,15 @@
   <body>
     <header>
       <div>
-        <img src="./img/logo-oscar.png" alt="Logotipo da Oscar Peças Serviços" />
+        <img
+          src="./img/logo-oscar.png"
+          alt="Logotipo da Oscar Peças Serviços"
+        />
         <h1>Oscar Peças Serviços</h1>
       </div>
 
       <nav aria-label="Navegação principal">
-        <a href="./index.html">Início</a>
+        <a href="./index.html" aria-current="page">Início</a>
         <a href="./veiculos.html">Veículos</a>
         <a href="./pecas.html">Peças</a>
         <a href="./contato.html">Contato</a>
@@ -25,50 +32,114 @@
     </header>
 
     <main>
-      <section>
-        <h2>Encontre as peças para seu Chevrolet</h2>
+      <section id="banner-principal">
+        <div>
+          <p>OSCAR PEÇAS SERVIÇOS</p>
+
+          <h2>Seu Chevrolet merece as peças certas.</h2>
+
+          <p>
+            Explore nosso site, conheça os modelos Chevrolet do catálogo
+            e encontre o caminho para consultar as peças que procura.
+          </p>
+
+          <a href="#sobre">Conheça a empresa</a>
+          <a href="./pecas.html">Explorar peças</a>
+        </div>
+      </section>
+
+      <section id="sobre">
+        <div>
+          <p>QUEM SOMOS</p>
+          <h2>Conheça a Oscar Peças Serviços</h2>
+
+          <p>
+            A Oscar Peças Serviços é voltada ao segmento de autopeças
+            Chevrolet. Este site foi desenvolvido para facilitar a navegação
+            pelo catálogo e ajudar o visitante a encontrar as informações
+            relacionadas ao veículo e à categoria de peça que procura.
+          </p>
+
+          <p>
+            Navegue pelas páginas para conhecer os modelos disponíveis no
+            catálogo, explorar as categorias de peças e entrar em contato
+            para tirar dúvidas ou solicitar um orçamento.
+          </p>
+
+          <a href="./contato.html">Entre em contato</a>
+        </div>
+      </section>
+
+      <section id="como-funciona">
+        <h2>Encontre o que procura</h2>
 
         <p>
-          Consulte nosso catálogo de autopeças para veículos Chevrolet
-          e entre em contato para solicitar informações e orçamentos.
+          Escolha por onde deseja começar e acesse a página mais adequada
+          para sua consulta.
         </p>
 
-        <a href="./veiculos.html">Consultar veículos</a>
+        <div class="grade-categorias">
+          <article>
+            <h3>Modelos Chevrolet</h3>
+
+            <p>
+              Consulte a lista de veículos Chevrolet organizada na página
+              de modelos.
+            </p>
+
+            <a href="./veiculos.html">Explorar veículos</a>
+          </article>
+
+          <article>
+            <h3>Catálogo de peças</h3>
+
+            <p>
+              Pesquise por modelo, ano e categoria para explorar as
+              informações disponíveis no catálogo.
+            </p>
+
+            <a href="./pecas.html">Consultar catálogo</a>
+          </article>
+
+          <article>
+            <h3>Fale conosco</h3>
+
+            <p>
+              Utilize a página de contato para enviar sua solicitação
+              ou tirar dúvidas sobre uma peça.
+            </p>
+
+            <a href="./contato.html">Acessar contato</a>
+          </article>
+        </div>
       </section>
 
-      <section>
-        <h2>Categorias de peças</h2>
+      <section id="orcamento">
+        <h2>Precisa de ajuda com sua consulta?</h2>
 
-        <article>
-          <h3>Motor</h3>
-          <p>Peças para manutenção e funcionamento do motor.</p>
-        </article>
+        <p>
+          Entre em contato para esclarecer dúvidas e solicitar informações
+          sobre a peça que procura.
+        </p>
 
-        <article>
-          <h3>Freios</h3>
-          <p>Componentes relacionados ao sistema de frenagem.</p>
-        </article>
-
-        <article>
-          <h3>Suspensão</h3>
-          <p>Peças para manutenção do sistema de suspensão.</p>
-        </article>
-
-        <article>
-          <h3>Elétrica</h3>
-          <p>Componentes do sistema elétrico do veículo.</p>
-        </article>
-      </section>
-
-      <section>
-        <h2>Precisa de uma peça específica?</h2>
-        <p>Entre em contato para consultar disponibilidade e solicitar um orçamento.</p>
-        <a href="./contato.html">Solicitar orçamento</a>
+        <a href="./contato.html">Falar com a equipe</a>
       </section>
     </main>
 
     <footer>
       <p>Oscar Peças Serviços — Autopeças Chevrolet.</p>
+
+      <p>
+        As informações do catálogo não garantem disponibilidade nem
+        compatibilidade. Confirme a aplicação da peça antes da compra.
+      </p>
+
+      <nav aria-label="Navegação do rodapé">
+        <a href="./index.html">Início</a>
+        <a href="./veiculos.html">Veículos</a>
+        <a href="./pecas.html">Peças</a>
+        <a href="./contato.html">Contato</a>
+      </nav>
     </footer>
   </body>
 </html>
